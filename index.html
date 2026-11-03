@@ -1,0 +1,488 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script src="https://cdn.tailwindcss.com"></script>
+    
+    </head>
+     <body class="font-['Inter']">
+
+<section class="min-h-screen bg-cover bg-center bg-no-repeat px-6 py-10"
+style="background-image: linear-gradient(#0005,#0005), url(https://www.shutterstock.com/image-photo/tashkent-uzbekistan-april-28-2024-260nw-2455215141.jpg);">
+
+    <div class="max-w-7xl mx-auto">
+
+      
+        <header class="flex justify-between items-center mb-24">
+            <h2 class="text-white text-3xl font-extrabold">
+                <span class="text-green-400"></span> UyBozor
+            </h2>
+
+            <nav class="hidden md:flex gap-8 text-white">
+                <a href="#">Bosh sahifa</a>
+                <a href="#">Uylar</a>
+                <a href="#">Biz haqimizda</a>
+                <a href="#">Bog'lanish</a>
+            </nav>
+
+            <button class="bg-green-700 text-white px-7 py-3 rounded-full">
+                Kirish
+            </button>
+        </header>
+
+      
+        <div class="text-center max-w-5xl mx-auto">
+
+            <div class="inline-flex items-center gap-3 bg-white/80 rounded-full px-6 py-3 mb-10">
+                <span class="w-4 h-4 bg-green-700 rounded-full"></span>
+                <span class="text-red-800 font-medium">
+                    O'zbekistondagi №1 ko'chmas mulk platformasi
+                </span>
+            </div>
+
+            <h1 class="text-4xl md:text-6xl font-extrabold text-gray-900 leading-tight">
+                O'z orzuingizdagi uyni
+                <span class="text-green-700 underline">O'zbekistonda</span>
+                toping
+            </h1>
+
+            <p class="text-pink-700 text-lg md:text-xl mt-8 leading-relaxed">
+                Toshkent va viloyatlar bo'ylab 45,000 dan ortiq
+                tasdiqlangan kvartiralar, kottejlar va tijorat mulklari
+                to'g'ridan-to'g'ri egalaridan hamda ishonchli quruvchilardan.
+            </p>
+
+        </div>
+
+        
+        <div class="bg-white/95 backdrop-blur-xl rounded-[30px] shadow-2xl mt-10 p-6 md:p-8">
+
+           
+            <div class="flex flex-wrap justify-between items-center gap-5 mb-14">
+
+                <div class="flex gap-1 bg-indigo-50 rounded-2xl p-1">
+                    <button class="bg-green-800 text-white px-6 py-3 rounded-xl">
+                        Sotib olish
+                    </button>
+
+                    <button class="px-6 py-3 rounded-xl">
+                        Ijara
+                    </button>
+
+                    <button class="px-6 py-3 rounded-xl">
+                        Kunlik ijara
+                    </button>
+                </div>
+
+                <div class="flex items-center gap-4">
+                    <span>Valyuta:</span>
+                    <span class="bg-indigo-50 text-green-600 rounded-full px-7 py-2">
+                        1 USD ≈ 12,650 UZS
+                    </span>
+                </div>
+
+            </div>
+
+           
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5 items-end">
+
+                <div>
+                    <label class="block mb-3 text-gray-700 font-semibold">
+                        Shahar va Tuman
+                    </label>
+
+                    <select class="w-full bg-indigo-50 rounded-2xl px-4 py-5 outline-none">
+                        <option>Toshkent, Barcha tumanlar</option>
+                        <option>Chilonzor</option>
+                        <option>Yunusobod</option>
+                        <option>Mirzo Ulug'bek</option>
+                        <option>Yakkasaroy</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block mb-3 text-gray-700 font-semibold">
+                        Xonalar soni
+                    </label>
+
+                    <div class="flex justify-between bg-indigo-50 rounded-2xl p-2">
+                        <button class="px-4 py-3">1</button>
+                        <button class="bg-green-800 text-white px-4 py-3 rounded-xl">2</button>
+                        <button class="px-4 py-3">3</button>
+                        <button class="px-3 py-3">4+</button>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block mb-3 text-gray-700 font-semibold">
+                        Mulk turi
+                    </label>
+
+                    <select class="w-full bg-indigo-50 rounded-2xl px-4 py-5 outline-none">
+                        <option>Kvartira (Ikkilamchi)</option>
+                        <option>Yangi bino</option>
+                        <option>Hovli uy</option>
+                        <option>Kottej</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block mb-3 text-gray-700 font-semibold">
+                        Narx ($ gacha)
+                    </label>
+
+                    <input type="number" placeholder="85,000"
+                    class="w-full bg-indigo-50 rounded-2xl px-4 py-5 outline-none">
+                </div>
+
+                <div>
+                    <button class="w-full bg-green-800 hover:bg-green-900 text-white font-semibold rounded-2xl py-5">
+                        Qidirish
+                    </button>
+                </div>
+
+            </div>
+
+           
+            <div class="flex flex-wrap items-center gap-3 mt-6">
+
+                <span class="font-medium text-gray-700">
+                    Tezkor filtr:
+                </span>
+
+                <button class="bg-indigo-50 rounded-full px-4 py-2">
+                     Metro yaqinida
+                </button>
+
+                <button class="bg-indigo-50 rounded-full px-4 py-2">
+                    Yevroremont
+                </button>
+
+                <button class="bg-indigo-50 rounded-full px-4 py-2">
+                    Hovli uylar
+                </button>
+
+                <button class="bg-indigo-50 rounded-full px-4 py-2">
+                     Yangi bino (Bo'lib to'lash)
+                </button>
+
+                <button class="bg-indigo-100 rounded-full px-4 py-2 ml-auto">
+                    Barcha filtrlar
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+     <section class="max-w-7xl mx-auto px-4 py-8">
+         <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+           <div class="bg-white p-4 rounded-xl border">
+            <p class="text-2xl font-bold text-emerald-600">45,000+</p>
+            <p class="text-xs text-gray-500">Aktiv e'lonlar</p>
+        </div>
+      <div class="bg-white p-4 rounded-xl border">
+        <p class="text-2xl font-bold text-emerald-600">12,000+</p>
+        <p class="text-xs text-gray-500">Muvaffaqiyatli bitimlar</p>
+      </div>
+      <div class="bg-white p-4 rounded-xl border">
+          <p class="text-2xl font-bold text-emerald-600">98.4%</p>
+         <p class="text-xs text-gray-500">Mamnun mijozlar</p>
+      </div>
+       <div class="bg-white p-4 rounded-xl border">
+         <p class="text-2xl font-bold text-emerald-600">14 Hudud</p>
+        <p class="text-xs text-gray-500">O'zbekiston bo'ylab</p>
+        </div>
+    </div>
+  </section>
+     
+  
+  
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+
+    
+    <div class="bg-white rounded-xl overflow-hidden shadow-sm">
+      <div class="relative">
+        <img class="w-full h-36 object-cover"
+        src="s.png">
+      </div>
+      <div class="p-3">
+        <h2 class="text-emerald-700 font-bold text-lg">$85,000</h2>
+        <p class="text-gray-400 text-xs">1,070,000,000 so'm</p>
+        <h3 class="font-semibold text-sm mt-2">Mirzo Ulug'bek, 3 xonali novostroyka</h3>
+        <p class="text-gray-500 text-xs mt-1"> Mirzo Ulug'bek tumani</p>
+        <div class="bg-indigo-50 rounded-lg p-2 mt-3 flex justify-between text-xs">
+          <span>3 xona</span><span>75 m²</span><span>5/9 qavat</span>
+        </div>
+        <div class="flex justify-between items-center mt-4 text-xs">
+          <span> Golden House </span>
+          <button class="bg-emerald-700 text-white rounded-full px-3 py-1"> Bog'lanish</button>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="bg-white rounded-xl overflow-hidden shadow-sm">
+      <img class="w-full h-36 object-cover"
+      src="w.png">
+      <div class="p-3">
+        <h2 class="text-emerald-700 font-bold ">$65,000</h2>
+        <p class="text-gray-400 ">822,000,000 so'm</p>
+        <h3 class="font-semibold  mt-2">Yakkasaroy tumani, 2 xonali</h3>
+        <p class="text-gray-500  mt-1"> Yakkasaroy tumani</p>
+        <div class="bg-indigo-50 rounded-lg p-2 mt-3 flex justify-between text-center text-xs">
+          <span>2 xona</span><span>58 m²</span><span>3/5 qavat</span>
+        </div>
+        <div class="flex justify-between items-center mt-4 text-xs">
+          <span> Farrux A.</span>
+          <button class="bg-emerald-700 text-white rounded-full px-3 py-1"> Bog'lanish</button>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="bg-white rounded-xl overflow-hidden shadow-sm">
+      <img class="w-full h-36 object-cover"
+      src="r.png">
+      <div class="p-3">
+        <h2 class="text-emerald-700 font-bold ">$140,000</h2>
+        <p class="text-gray-400 ">1,771,000,000 so'm</p>
+        <h3 class="font-semibold  mt-2">Yunusobod, 4 xonali kottej</h3>
+        <p class="text-gray-500  mt-1"> Yunusobod tumani</p>
+        <div class="bg-indigo-50 rounded-lg p-2 mt-3 flex justify-between text-center text-xs">
+          <span>4 xona</span><span>180 m²</span><span>2 qavat</span>
+        </div>
+        <div class="flex justify-between items-center mt-4 text-xs">
+          <span> Rieltor Servis</span>
+          <button class="bg-emerald-700 text-white rounded-full px-3 py-1"> Bog'lanish</button>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="bg-white rounded-xl overflow-hidden shadow-sm">
+      <img class="w-full h-36 object-cover"
+      src="z.png">
+      <div class="p-3">
+        <h2 class="text-emerald-700 font-bold ">$42,000</h2>
+        <p class="text-gray-400 ">531,000,000 so'm</p>
+        <h3 class="font-semibold mt-2">Chilonzor tumani, 1 xonali</h3>
+        <p class="text-gray-500  mt-1"> Chilonzor tumani</p>
+        <div class="bg-indigo-50 rounded-lg p-2 mt-3 flex justify-between text-center text-xs">
+          <span>1 xona</span><span>40 m²</span><span>2/4 qavat</span>
+        </div>
+        <div class="flex justify-between items-center mt-4 text-xs">
+          <span> Malika S.</span>
+          <button class="bg-emerald-700 text-white rounded-full px-3 py-1"> Bog'lanish</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  
+  <section class="mt-16">
+    <p class="text-white -600 text-xs font-bold">HUDUDLAR BO'YICHA</p>
+    <h2 class="text-2xl font-bold mt-1 mb-5">
+      Toshkentning ommabop tumanlari
+    </h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+
+      
+      <div class="relative h-60 rounded-2xl overflow-hidden">
+        <img class="w-full h-full object-cover"
+        src="https://t4.ftcdn.net/jpg/02/21/90/31/360_F_221903191_cdCRccy3dV6PSvtK88QsBO2XBjmOdGt6.jpg">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+        <span class="absolute top-3 left-3 bg-white/30 text-white text-xs px-3 py-1 rounded-full">8,450 ta e'lon</span>
+        <div class="absolute bottom-3 left-4 text-white">
+          <h3 class="font-bold">Yunusobod tumani</h3>
+          <p class="text-xs text-gray-200">O'rtacha $1,050/m² • Metro yaqin</p>
+        </div>
+      </div>
+
+      
+      <div class="relative h-60 rounded-2xl overflow-hidden">
+        <img class="w-full h-full object-cover"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzdUZX5f8zArnd0VblShEMcaS12ga6l8yp04uRU7s0139x12RSQp-hKmU&s=10">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+        <span class="absolute top-3 left-3 bg-white/30 text-white text-xs px-3 py-1 rounded-full">9,200 ta e'lon</span>
+        <div class="absolute bottom-3 left-4 text-white">
+          <h3 class="font-bold">Mirzo Ulug'bek tumani</h3>
+          <p class="text-xs text-gray-200">O'rtacha $1,180/m² • Markazga yaqin</p>
+        </div>
+      </div>
+      <div class="relative h-60 rounded-2xl overflow-hidden">
+        <img class="w-full h-full object-cover"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTAXc_zLLInQ0j4H_ju2Vr0sM3w9a9yJRUf6qwj9VFUxO6bWNxfyhxMjPl&s=10">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+        <span class="absolute top-3 left-3 bg-white/30 text-white text-xs px-3 py-1 rounded-full">7,800 ta e'lon</span>
+        <div class="absolute bottom-3 left-4 text-white">
+          <h3 class="font-bold">Chilonzor tumani</h3>
+          <p class="text-xs text-gray-200">O'rtacha $950/m² • Bog'chalar mavjud</p>
+        </div>
+      </div>
+      <div class="relative h-60 rounded-2xl overflow-hidden">
+        <img class="w-full h-full object-cover"
+        src="https://c4.wallpaperflare.com/wallpaper/37/934/385/trees-the-city-building-capital-wallpaper-preview.jpg">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+        <span class="absolute top-3 left-3 bg-white/30 text-white text-xs px-3 py-1 rounded-full">5,100 ta e'lon</span>
+        <div class="absolute bottom-3 left-4 text-white">
+          <h3 class="font-bold">Mirobod tumani</h3>
+          <p class="text-xs text-gray-200">O'rtacha $1,320/m² • Biznes markazi</p>
+        </div>
+      </div>
+      <div class="relative h-60 rounded-2xl overflow-hidden">
+        <img class="w-full h-full object-cover"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsI1kooWO0CtFr7kAUL5XLtRwYxT3u5WpgV2pErfZxCWRrKKcoDxv3wm8&s=10">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+        <span class="absolute top-3 left-3 bg-white/30 text-white text-xs px-3 py-1 rounded-full">4,600 ta e'lon</span>
+        <div class="absolute bottom-3 left-4 text-white">
+          <h3 class="font-bold">Yashnobod tumani</h3>
+          <p class="text-xs text-gray-200">O'rtacha $990/m² • Yangi turar-joy</p>
+        </div>
+      </div>
+      <div class="relative h-60 rounded-2xl overflow-hidden">
+        <img class="w-full h-full"
+        src="https://wallpapercat.com/w/full/a/7/9/1998133-2048x1479-desktop-hd-tashkent-background-image.jpg">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+        <span class="absolute top-3 left-3 bg-white/30 text-white text-xs px-3 py-1 rounded-full">4,200 ta e'lon</span>
+        <div class="absolute bottom-3 left-4 text-white">
+          <h3 class="">Shayxontohur tumani</h3>
+          <p class="text-xs text-gray-200">O'rtacha $1,210/m² • Toshkent City yaqinida</p>
+        </div>
+      </div>
+    </div>
+  </section>
+    <section class="bg-[#f1f3ff] rounded-[30px] shadow-md border border-gray-100 p-6 md:p-10 mb-14 overflow-hidden">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 items-center">     
+        <div class="w-full min-w-0 text-center">
+            <div class="inline-flex items-center gap-2 bg-blue-100 text-blue-700 px-5 py-2 rounded-full font-semibold text-sm mb-7">
+                <span>ϟ</span>
+                Sizning moliyaviy yordamchingiz
+            </div>
+            <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-3">
+                UyBozor Ipoteka Kalkulyatori
+            </h1>
+            <p class="text-gray-500 leading-7 text-sm md:text-base mb-8">
+                O'zbekistondagi 15+ yetakchi tijorat banklarining eng ma'qul foiz stavkalarini 17.5% dan boshlab bir joyda solishtiring va oylik to'lovni oldindan aniqlang.
+            </p> 
+            <div class="flex flex-wrap justify-between items-center gap-3 border-b-2 border-gray-300 pb-4 mb-7">
+                <span class="text-gray-600 font-semibold">
+                    Ko'chmas mulk qiymati:
+                </span>
+                <span class="text-emerald-600 font-extrabold text-2xl">
+                    $60,000
+                    <small class="text-sm font-medium">(760 mln)</small>
+                </span>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-7">
+                <div class="bg-white/60 border border-gray-200 rounded-2xl p-5 shadow-sm">
+                    <p class="text-gray-400 text-xs font-semibold mb-2">
+                        Boshlang'ich to'lov (20%)
+                    </p>
+                    <h3 class="text-xl font-extrabold text-gray-800">
+                        $12,000
+                    </h3>
+              </div>
+                <div class="bg-blue-100/70 border border-blue-100 rounded-2xl p-5">
+                  <p class="text-gray-500 text-xs font-semibold mb-2">
+                        Oylik to'lov (20 yil)
+                    </p>
+                    <h3 class="text-xl font-extrabold text-emerald-600">
+                        ~$640 / oy
+                    </h3>
+                </div>
+            </div>
+            <a href="#banks"
+                class="inline-flex items-center justify-center gap-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-7 py-4 rounded-xl shadow-lg transition">
+                Batafsil hisoblash & Bank tanlash
+                <span class="text-xl">›</span>
+            </a>
+        </div>
+        <div class="relative w-full min-w-0">
+            <img
+                src="https://cdn.informator.ua/@prod/_1920/media/ua/2025/04/01/67eba5c4138710.14824170.jpg"
+                alt="Yangi uy"
+                class="w-full h-[300px] md:h-[385px] object-cover rounded-[30px] shadow-xl">
+            <div class="absolute bottom-5 left-4 right-4 bg-white/95 backdrop-blur-md rounded-2xl p-4 flex items-center gap-4 shadow-lg">
+                <div class="w-12 h-12 bg-emerald-50 rounded-full flex-shrink-0"></div>
+                <div class="min-w-0">
+                    <h3 class="font-extrabold text-gray-800 text-sm md:text-base">
+                        100% Rasmiy Shartnomalar
+                    </h3>
+                    <p class="text-gray-500 text-xs md:text-sm">
+                        Notarial va kadastr xizmati hamrohligida  
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+  <section class="max-w-5xl mx-auto mt-12">
+    <div class="bg-[#056842] rounded-3xl p-8 md:p-12 text-white flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl">
+      <div class="space-y-3 max-w-xl">
+        <h2 class="text-2xl md:text-3xl font-extrabold tracking-tight leading-tight">
+          O'z uyingizni tez va foydali soting yoki ijaraga bering
+        </h2>
+        <p class="text-emerald-100 text-xs md:text-sm leading-relaxed opacity-90">
+          Kuniga 50,000 dan ziyod xaridorlar bizning platformada yangi uy qidirmoqda. Birinchi e'loningizni 2 daqiqada bepul joylashtiring!
+        </p>
+      </div>
+      <div class="flex flex-wrap items-center gap-3 w-full md:w-auto">
+        <button class="flex-1 md:flex-initial px-5 py-3 bg-white text-[#056842] hover:bg-emerald-50 text-xs font-bold rounded-xl transition-all shadow-md">
+          + E'lon berish
+        </button>
+        <button class="flex-1 md:flex-initial px-5 py-3 bg-white/10 hover:bg-white/20 text-white text-xs font-semibold rounded-xl border border-white/20 transition-all">
+          Agentliklar uchun
+        </button>
+      </div>
+    </div>
+  </section>
+  <footer class=" border-gray-200 mt-16 pt-12 pb-8 text-gray-600">
+    <div class="max-w-5xl mx-auto px-4 space-y-10">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        <div class="space-y-4">
+          <h3 class="text-xl font-bold text-emerald-600 tracking-tight">UyBozor</h3>
+          <p class="text-xs text-gray-500 leading-relaxed">
+            O'zbekistonda ko'chmas mulk oldi-sotdi va ijara platformasi.
+          </p>
+          <div class="space-y-1.5 text-xs text-gray-700 font-medium">
+            <p> +998 (71) 200-00-00</p>
+            <p class="text-gray-500">info@uybozor.uz</p>
+          </div>
+        </div>
+        <div class="space-y-3">
+          <h4 class="text-xs font-bold text-gray-900 uppercase tracking-wider">Ko'chmas mulk</h4>
+          <ul class="space-y-2 text-xs text-gray-500">
+            <li><a href="#" class="hover:text-emerald-600">Kvartiralar</a></li>
+            <li><a href="#" class="hover:text-emerald-600">Hovlilar va kottejlar</a></li>
+            <li><a href="#" class="hover:text-emerald-600">Tijorat ko'chmas mulki</a></li>
+            <li><a href="#" class="hover:text-emerald-600">Yangi binolar</a></li>
+          </ul>
+        </div>
+        <div class="space-y-3">
+          <h4 class="text-xs font-bold text-gray-900 uppercase tracking-wider">Mashhur hududlar</h4>
+          <ul class="space-y-2 text-xs text-gray-500">
+            <li><a href="#" class="hover:text-emerald-600">Toshkent shahri</a></li>
+            <li><a href="#" class="hover:text-emerald-600">Mirobod tumani</a></li>
+            <li><a href="#" class="hover:text-emerald-600">Yashnobod tumani</a></li>
+            <li><a href="#" class="hover:text-emerald-600">Chilonzor tumani</a></li>
+          </ul>
+        </div>
+        <div class="space-y-3">
+          <h4 class="text-xs font-bold text-gray-900 uppercase tracking-wider">Mobil ilova</h4>
+          <p class="text-xs text-gray-500">Ilovani yuklab oling</p>
+          <div class="space-y-2">
+            <div class="bg-gray-900 text-white p-2 rounded-xl text-xs font-bold text-center">App Store</div>
+            <div class="bg-gray-900 text-white p-2 rounded-xl text-xs font-bold text-center">Google Play</div>
+          </div>
+        </div>
+    </footer>
+</body>
+</html>
